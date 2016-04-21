@@ -146,4 +146,5 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
 )
 
+MEDIA_URL = "/media/"
 MEDIA_ROOT = env('BLOG_MEDIA_ROOT_PATH', required=True)
