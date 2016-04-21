@@ -1,6 +1,6 @@
 *.sw[pon]
 *.pyc
-.venv
+venv
 db.sqlite3
 notes.txt
 *.pid
