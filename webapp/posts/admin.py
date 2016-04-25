@@ -14,3 +14,4 @@ class PostModelAdmin(admin.ModelAdmin):
         model = Post
 
 admin.site.register(Post, PostModelAdmin)
+admin.site.site_header = 'Blog Admin'
